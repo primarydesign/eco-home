@@ -1,0 +1,21 @@
+{
+	"app": "./app",
+	"pages": {
+		"src": "./src/*.html",
+		"dest": "./app/"
+	},
+	"styles": {
+		"src": "./src/assets/css/*.css",
+		"dest": "./app/assets/css/",
+		"watch": "./src/js/**/*.css"
+	},
+	"scripts": {
+		"src": "./src/assets/js/*.js",
+		"dest": "./app/assets/js/",
+		"watch": "./src/js/**/*.js"
+	},
+	"images": {
+		"src": "./src/assets/img/**/*.{gif,jpg,jpeg,png,svg,ico}",
+		"dest": "./app/assets/img/"
+	}
+}

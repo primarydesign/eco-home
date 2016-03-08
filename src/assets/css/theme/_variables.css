@@ -1,0 +1,11 @@
+$color-main: #000000;
+$bgcolor-main: #ffffff;
+$green: #76ad35;
+$dkgray: #575757;
+
+$small: screen and (min-width: 600px);
+$medium: screen and (min-width:900px);
+$large: screen and (min-width: 1200px);
+
+$container-default-width: 80%;
+$container-max-width: 1200px;

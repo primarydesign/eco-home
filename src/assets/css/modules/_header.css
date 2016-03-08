@@ -1,0 +1,6 @@
+.header {
+    /* @mixin backImage '../images/ecohome-logo.gif'; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

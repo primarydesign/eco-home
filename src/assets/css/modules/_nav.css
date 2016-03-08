@@ -1,0 +1,16 @@
+.nav {
+    margin-top: 1.75rem;
+    .nav-elements {
+        display: flex;
+        .branding {
+            max-width: 180px;
+            width: 30%;
+        }
+        .navbar {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: flex-end;
+        }
+    }
+}

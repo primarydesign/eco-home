@@ -1,0 +1,38 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: $bgcolor-main;
+    font-size: 1.8rem; /* 18px */
+    line-height: 150%;    
+    color: $dkgray;
+}
+
+.container {
+    width: $container-default-width;
+    max-width: $container-max-width;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6, .container a {
+    margin: 0;
+    padding: 0;
+    color: $green;
+}
+
+img {
+    max-width: 100%;
+}
+
+em {
+    font-weight: bold;
+}
