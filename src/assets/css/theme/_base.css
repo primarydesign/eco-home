@@ -11,6 +11,8 @@ body {
     margin: 0;
     padding: 0;
     background-color: $bgcolor-main;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
     font-size: 1.8rem; /* 18px */
     line-height: 150%;    
     color: $dkgray;
@@ -19,20 +21,33 @@ body {
 .container {
     width: $container-default-width;
     max-width: $container-max-width;
-    margin: 0 auto;
-    font-family: sans-serif;
+    margin: 0 5%;
 }
 
 h1,h2,h3,h4,h5,h6, .container a {
     margin: 0;
     padding: 0;
     color: $green;
+    font-weight: 400;
+    text-decoration: none;
+    line-height: 110%;
+}
+
+.container a {
+    line-height: inherit;
 }
 
 img {
     max-width: 100%;
 }
+ul {
+    list-style-type: none;
+}
+li {
+    line-height: 115%;
+    padding-bottom: 15px;
+}
 
 em {
-    font-weight: bold;
+    font-weight: 400;
 }

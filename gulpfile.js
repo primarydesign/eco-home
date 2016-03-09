@@ -53,7 +53,7 @@ gulp.task('images', function() {
 });
 gulp.task('watch', function() {
 	gulp.watch($.pages.src, ['pages']);
-	gulp.watch($.styles.watch, ['stlyes']);
+	gulp.watch($.styles.watch, ['styles']);
 	gulp.watch($.scripts.watch, ['scripts']);
 });
 gulp.task('serve', function() {

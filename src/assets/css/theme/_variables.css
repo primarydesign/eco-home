@@ -1,11 +1,15 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300);
+
 $color-main: #000000;
 $bgcolor-main: #ffffff;
 $green: #76ad35;
+$blue: #1c5ba1;
 $dkgray: #575757;
+$white: #ffffff;
 
 $small: screen and (min-width: 600px);
-$medium: screen and (min-width:900px);
-$large: screen and (min-width: 1200px);
+$medium: screen and (min-width:760px);
+$large: screen and (min-width: 760px);
 
 $container-default-width: 80%;
-$container-max-width: 1200px;
+$container-max-width: 760px;

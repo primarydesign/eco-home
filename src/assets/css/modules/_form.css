@@ -1,0 +1,90 @@
+.contact {
+  padding: 0;
+  z-index: 1;
+  transition: max-height 450ms ease;
+  @media (max-width: 799px) {
+  }
+  @media (min-width: 800px) {
+  }
+}
+.contact.is-open {
+  max-height: 800px;
+}
+.contact__information {
+  padding: 30px 0;
+  font-size: 1rem;
+  font-style: normal;
+}
+.contact__opening {
+  margin-bottom: 10px;
+  font-size: 1.35em;
+  font-style: italic;
+  text-transform: uppercase;
+}
+.contact__item {
+  font-size: 0.8em;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 1.50em;
+  text-transform: uppercase;
+  &:last-child {
+    margin-top: 5px;
+  }
+}
+
+.contact__form {
+  padding: 30px 0;
+  width: 100%;
+}
+.form__field {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  background: #F0F0F0;
+}
+.form__field[data-error]:after {
+  content: attr(data-error);
+  display: block;
+  padding: 5px 0;
+  position: relative;
+  width: 100%;
+  font-size: 0.70rem;
+  text-transform: uppercase;
+}
+.form__input {
+  display: block;
+  padding: 5px;
+  padding-bottom: 20px;
+  width: 100%;
+  border: none;
+  font-size: 0.90rem;
+  letter-spacing: 0.08rem;
+  outline: none !important;
+  background: #F0F0F0;
+}
+.form__input::-webkit-input-placeholder {
+  font-size: 0.8em;
+  font-weight: bold;
+  letter-spacing: 0.10rem;
+  text-transform: uppercase;
+}
+.form__input.input--textarea {
+  max-width: 100%;
+  min-height: 100px;
+}
+.form__submit {
+  cursor: pointer;
+  padding: 15px 20px;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  outline: none;
+  text-transform: uppercase;
+}
+
+.contact__response {
+  margin-top: 30px;
+  font-size: 1.40rem;
+  text-align: center;
+}
