@@ -22,7 +22,7 @@ submit.addEventListener('click', function(event) {
   for(let i = 0; i < fields.length; i++) {
     count += validateField(fields[i]);
   }
-  if (count > 0) submission(form);
+  if (count === 0) submission(form);
 });
 
 function submission(form) {
@@ -35,8 +35,8 @@ function submission(form) {
       submit.disabled = true;
     },
     success: function() {
-      // response.className += ' is-active';
-      form.className += ' is-invisible';
+      response.className += ' is-active';
+      // form.className += ' is-invisible';
     },
     error: function(response, status, error) {
       submit.disabled = false;

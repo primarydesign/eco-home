@@ -33,8 +33,10 @@
 }
 
 .contact__form {
-  padding: 30px 0;
+  margin: 30px 0;
   width: 100%;
+  position: relative;
+  overflow: hidden;
 }
 .form__field {
   display: block;
@@ -87,4 +89,30 @@
   margin-top: 30px;
   font-size: 1.40rem;
   text-align: center;
+}
+
+.form__response {
+  display: block;
+  height: 100%;
+  position: absolute;
+  top: 100%;left: 0;
+  width: 100%;
+  background: rgb(240,240,240);
+  transition: transform 300ms ease;
+  text-align: center;
+  &:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    width: 0;
+  }
+  h2 {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 6.00rem;
+  }
+  &.is-active {
+    transform: translateY(-100%);
+  }
 }
