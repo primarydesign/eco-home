@@ -7,9 +7,9 @@ $blue: #1c5ba1;
 $dkgray: #575757;
 $white: #ffffff;
 
-$small: screen and (min-width: 600px);
-$medium: screen and (min-width:760px);
-$large: screen and (min-width: 760px);
+$small: screen and (min-width: 760px);
+$medium: screen and (min-width: 960px);
+$large: screen and (min-width: 1200px);
 
 $container-default-width: 80%;
 $container-max-width: 760px;

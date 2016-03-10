@@ -1,6 +1,31 @@
 .header {
-    /* @mixin backImage '../images/ecohome-logo.gif'; */
+    @mixin backImage '../img/eco-home-background.jpg';
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
+    height: 75vh;
+}
+
+.welcome__container {
+  float: left;
+  width: 100%;
+  font-size: 100%;
+  padding: 3% 0 3% 6%;
+  @media $small {
+    width: 50%;
+    font-size: 140%;
+  }
+  @media $medium {
+    width: 50%;
+    font-size: 160%;
+  }
+  @media $large {
+    width: 50%;
+    font-size: 180%;
+  }
+}
+
+.welcome__headline {
+    color: #fff;
+    display: inline;
 }

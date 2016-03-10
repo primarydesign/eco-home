@@ -2,6 +2,7 @@
 @import "theme/variables";
 @import "theme/base";
 @import "theme/mixins";
+@import "theme/main";
 
 @import "modules/nav";
 @import "modules/header";

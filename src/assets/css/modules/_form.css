@@ -5,7 +5,23 @@
   @media (max-width: 799px) {
   }
   @media (min-width: 800px) {
+       
   }
+}
+
+.contact__headline {
+    color: #fff;
+}
+
+.form__container {
+    width: 100%;
+    min-width: 320px;
+    max-width: 640px;
+    padding: 0 10% 0 5%;
+    @media $small {
+      float: right;
+      width: 50%;
+    }
 }
 .contact.is-open {
   max-height: 800px;
@@ -13,7 +29,6 @@
 .contact__information {
   padding: 30px 0;
   font-size: 1rem;
-  font-style: normal;
 }
 .contact__opening {
   margin-bottom: 10px;
@@ -22,7 +37,7 @@
   text-transform: uppercase;
 }
 .contact__item {
-  font-size: 0.8em;
+  font-size: 1em;
   font-weight: 300;
   letter-spacing: 1px;
   line-height: 1.50em;
@@ -50,16 +65,15 @@
   padding: 5px 0;
   position: relative;
   width: 100%;
-  font-size: 0.70rem;
+  font-size: 1rem;
   text-transform: uppercase;
 }
 .form__input {
   display: block;
-  padding: 5px;
-  padding-bottom: 20px;
+  padding: 10px;
   width: 100%;
   border: none;
-  font-size: 0.90rem;
+  font-size: 1.5rem;
   letter-spacing: 0.08rem;
   outline: none !important;
   background: #F0F0F0;
@@ -73,16 +87,20 @@
 .form__input.input--textarea {
   max-width: 100%;
   min-height: 100px;
+  font-family: 'Roboto', sans-serif;
 }
 .form__submit {
+  font-family: 'Roboto', sans-serif;
   cursor: pointer;
   padding: 15px 20px;
   border: none;
-  font-size: 1rem;
-  font-weight: bold;
+  font-size: 1.25rem;
+  font-weight: 400;
   letter-spacing: 2px;
   outline: none;
   text-transform: uppercase;
+  background: $green;
+  color: $white;
 }
 
 .contact__response {

@@ -27,7 +27,7 @@ if (isset($_POST)) {
 	} else {
 	/* submission clear */
 
-		$address = "mitchell@primarydesign.com";
+		$address = "niko@primarydesign.com";
 		$subject = "User Submission";
 		$message = "User Submission:\n";
 		$message .= "Name: " . $name . "\n";
