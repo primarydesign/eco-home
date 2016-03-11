@@ -1,0 +1,42 @@
+  
+#accordion {
+    width: 90%;
+    padding: 30px 0;
+    margin: 0 auto;
+    @media $medium {
+      width: 40%;
+      max-width:500px;
+      padding: 30px 60px 0 0;
+    }
+}
+
+.faq__headline {
+    padding: 15px 0;
+}
+
+.accordion-toggle {
+    font-size: 2rem;
+    padding: 15px 0;
+    color: $blue;
+}
+
+.accordion-content, .accordion-content p, .accordion-content ol li  {
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+}
+
+.faq__checklist {
+    padding: 0;
+    margin: 0;
+}
+
+.faq__checklist-item {   
+    padding: 10px 20px 10px 30px;
+    background: url(../img/check.svg) no-repeat;
+    background-size: 18px;
+    background-position: 0% 15px;
+}
+
+.accordion-toggle {cursor: pointer;}
+.accordion-content {display: none;}
+.accordion-content.default {display: block;}

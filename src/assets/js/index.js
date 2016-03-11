@@ -1,3 +1,5 @@
+require('./accordion.js');
+
 const slice = Array.prototype.slice;
 const form = document.querySelector('.contact__form');
 const submit = document.querySelector('.form__submit');

@@ -19,9 +19,18 @@ body {
 }
 
 .container {
-    width: $container-default-width;
-    max-width: $container-max-width;
+    width: 90%;    
+    max-width: none;
     margin: 0 5%;
+    @media $small {          
+    }
+    @media $medium {
+        width: $container-default-width;
+        max-width: $container-max-width;
+        margin: 0 7.5%;
+    }
+    @media $large {   
+    }
 }
 
 h1,h2,h3,h4,h5,h6, .container a {
@@ -32,7 +41,9 @@ h1,h2,h3,h4,h5,h6, .container a {
     text-decoration: none;
     line-height: 110%;
 }
-
+a img {
+    border: 0px;
+}
 h1 {
     font-size: 160%;
 }
@@ -53,4 +64,10 @@ li {
 
 em {
     font-weight: 400;
+}
+
+sup {
+   vertical-align: baseline;
+   position: relative;
+   top: -0.4em;
 }

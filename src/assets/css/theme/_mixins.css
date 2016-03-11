@@ -1,9 +1,9 @@
 @define-mixin backImage
     $image,
     $height: 100vh,
-    $grstart: rgba(0,0,0,.0),
-    $grend: rgba(0,0,0,.3),
-    $bgPos: center center {
+    $grstart: rgba(0,0,0,0),
+    $grend: rgba(0,0,0,.2),
+    $bgPos: 50% 50% {
     background: linear-gradient(to bottom, $grstart, $grend), url($image);
     background-repeat: no-repeat;
     background-position: $bgPos;

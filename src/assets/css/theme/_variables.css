@@ -13,3 +13,6 @@ $large: screen and (min-width: 1200px);
 
 $container-default-width: 80%;
 $container-max-width: 760px;
+
+$shadow: 0px 5px 10px rgba(0,0,0,0.1), 5px 5px 10px rgba(0,0,0,0.05), -5px -5px 10px rgba(0,0,0,0.05);
+$ieshadow: progid:DXImageTransform.Microsoft.Shadow(color=#0000FF,direction=45);
