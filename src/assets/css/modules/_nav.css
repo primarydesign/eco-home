@@ -11,8 +11,11 @@
         display: flex;
         justify-content: space-between;
         .branding {
-          width: 200px;
+           width: 135px;
           padding-top: 15px;
+          @media (min-width:480px) {
+            width: 200px;
+          }
             .nav__logo {
               max-height: 80px;
             }
@@ -23,8 +26,8 @@
             display: flex;
         }
         .navbar__phone {
-          min-width: 150px;
-          font-size: 1.75rem;
+          font-size: 1.5rem;
+          padding: 15px 0 0 0;
           @media (min-width:480px) {
             font-size: 2.2rem;
             padding: 5px 0 0 0;

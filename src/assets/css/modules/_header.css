@@ -34,7 +34,7 @@
   width: 100%;
   padding: 0 10% 0 5%;
   max-width: 640px;
-  font-size: 100%;
+  font-size: 85%;
 
   @media $small {
     width: 50%;
